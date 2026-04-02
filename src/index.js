@@ -162,11 +162,6 @@ function App() {
       <img src={MU} width="50px" alt='logo' />
       <h1>맨체스터 유나이티드 FC</h1>
       </div>
-      <div id='mode-toggle'>
-        <button onClick={()=>setDarkMode(!darkMode)}>
-          {darkMode ? "Day" : "Night"}
-        </button>
-      </div>
       <div id='grid'>
         <ol>
           <li><NavLink to="/">개요</NavLink></li>
