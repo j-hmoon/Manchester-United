@@ -186,6 +186,11 @@ function App() {
           </Routes>
         </div>
       </div>
+      <div id='mode-toggle'>
+        <button onClick={()=>setDarkMode(!darkMode)}>
+          {darkMode ? "Day" : "Night"}
+        </button>
+      </div>
     </div>
   )
 }
