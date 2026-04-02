@@ -91,7 +91,7 @@ function Stadium() {
     <div>
       <h2>3. 홈구장</h2>
       <h3>올드 트래포드</h3>
-      <img src={OT} width='700px' />
+      <img src={OT} width='700px' alt='old trafford'/>
       <p>프리미어 리그 맨체스터 유나이티드 FC의 홈구장이다. 현재 잉글랜드에서 두 번째로 큰 축구 경기장으로 웸블리 스타디움(90,000석) 다음 가는 수용 규모를 보유하고 있다. 또한 UEFA 카테고리 4 인증을 받아 챔피언스 리그와 UEFA 유로의 결승전을 개최할 수 있다.</p>
       <h3>스트렛포드 엔드(서쪽)</h3>
       <p>서쪽 스탠드(West Stand)는 스트렛포드 엔드(Stretford End)라는 이름으로도 잘 알려져있다. 남/북쪽 스탠드와 달리 정식 명명은 아니나, 모든 표지판과 안내에 기입되어있고 경기장 지붕에도 스트렛포드 엔드가 박혀있어 실질적으로 정식 명칭에 가깝다고 봐도 무방하다. 과거 입석이었던 시절에는 유나이티드의 서포터들이 2만 명 넘게 입장하여 경기내내 서서 열광적으로 응원을 보냈다고 한다. 스트렛포드 엔드의 서포터들이 지르는 함성은 마치 '점보 제트기가 이륙하는 소리' 같았다고 전해진다.
@@ -159,7 +159,7 @@ function App() {
   return (
     <div className={darkMode ? "app night" : "app day"}>
       <div className='title'>
-      <img src={MU} width="50px"></img>
+      <img src={MU} width="50px" alt='logo' />
       <h1>맨체스터 유나이티드 FC</h1>
       </div>
       <div id='mode-toggle'>
